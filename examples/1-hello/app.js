@@ -9,9 +9,9 @@ const fetchData = async () => {
 
     
     result.textContent = data;
-    console.log("data", data);
+    // console.log("data", data);
   } catch (error) {
-    console.log("error.response.data:", error.response.data);
+    // console.log("error.response.data:", error.response.data);
     result.textContent = error.response.data;
   }
 
